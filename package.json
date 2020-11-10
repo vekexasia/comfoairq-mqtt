@@ -1,0 +1,22 @@
+{
+  "name": "zehnder-q350",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist; tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5",
+    "utility-types": "^3.10.0"
+  },
+  "dependencies": {
+    "@types/serialport": "^8.0.1",
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.2.4",
+    "pm2": "^4.5.0",
+    "serialport": "^9.0.2"
+  }
+}
