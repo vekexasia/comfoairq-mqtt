@@ -45,7 +45,9 @@ where `${key}` is:
   * bypass_deactivate_1h
   * bypass_auto
   * ventilation_supply_only
+  * ventilation_supply_only_reset
   * ventilation_extract_only
+  * ventilation_extract_only_reset
   * ventilation_balance
   * temp_profile_normal
   * temp_profile_cool
