@@ -14,3 +14,4 @@ vmc_comfoair:
         - auto
         - manual
   automation: !include ./.automations.yaml
+  switch: !include ./.switch.yaml
