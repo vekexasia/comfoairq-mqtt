@@ -60,8 +60,8 @@ port.open(function (err) {
     console.log('Serial Port open!');
     // port.write(canMessage.initMessage(), (err) => console.log('initError?', err));
     // Because there's no callback to write, write errors will be emitted on the port:
-    // port.write('S2\r', (err) => console.log('w', err));
-    // port.write('O\r', (err) => console.log('ww', err));
+    port.write('S2\r', (err) => console.log('w', err));
+    port.write('O\r', (err) => console.log('ww', err));
 });
 mqttClient.on('message', async (topic, message) => {
     let topicName = topic.split('/').reverse()[0];
